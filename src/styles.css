@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+}
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: inherit;
+  transition: all 0.4s;
+}
+button:hover {
+  background: #c9c8c8;
+}

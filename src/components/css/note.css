@@ -1,0 +1,80 @@
+/* .note-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #8a8a8a;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #080808be;
+}
+.notes {
+  padding: 1rem;
+}
+.notes h3 {
+  display: inline-block;
+  padding: 1rem;
+  border: 3px solid #e6e6e6;
+  border-radius: 8px;
+}
+.notes p {
+  padding: 1rem;
+}
+.btn-control {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.btn-control button {
+  margin: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .note-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn-control {
+    flex-direction: row;
+  }
+} */
+
+.note-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border: 5px solid #afafaf;
+  border-radius: 16px;
+}
+.note-card .header {
+  background: #afafaf;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  padding: 1rem;
+}
+.note-card .body { 
+  width: 100%;
+  background: #2525252d;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.note-card .btn-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.note-card .btn-control button {
+  margin: 0.5rem;
+}
+@media (max-width: 768px) {
+  .note-card .body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .note-card .btn-control {
+    flex-direction: row;
+    margin: 2rem 0 0 0;
+  }
+}
